@@ -24,9 +24,9 @@ Columns: 35
   Rename the remaining columns
   
 ## Analysis
-### The number of complaints for different category
+### The number of crimes for different category
 
-### The number of complaints for different district
+### The number of crimes for different district
 
 ### The number of "" cimre at "Lower and Mid-Town Manhattan"
 
