@@ -13,16 +13,23 @@
 ## Data Source:
 https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i
 
-Rows: 6.91M
-Columns: 35
+Original Dataset:<br/> 
+Rows: 6.91M<br/>Columns: 35
 
-## Data Exploration and Preprocessing
-  Get DataFrame
-  
-  Drop some columns
-  
-  Rename the remaining columns
-  
+Filtered:<br/>
+Rows: 2.37M<br/>Columns: 35
+
+## Data Preprocessing
+  ### Make assumptions and drop columns <br/>
+  PARKS_NM", "VIC_AGE_GROUP", "VIC_RACE", "VIC_SEX", "STATION_NAME", "PATROL_BORO", "TRANSIT_DISTRICT", 
+             "SUSP_SEX", "SUSP_RACE", "X_COORD_CD", "Y_COORD_CD", "HOUSING_PSA", "HADEVELOPT", 
+             "JURISDICTION_CODE", "JURIS_DESC", "JURIS_DESC", "RPT_DT", "JURIS_DESC", "PREM_TYP_DESC",
+             "PD_CD", "PD_DESC", "LOC_OF_OCCUR_DESC", "CMPLNT_TO_TM", "CMPLNT_TO_DT
+  ### Rename the remaining columns<br/>
+  'Complaint_ID', 'Complnt_Date','Complnt_Time', 'Neighborhood', 'Offence_Code', 'Offence_Type',
+        'Status','Offence_Level','Borough', 'Age','Latitude','Longitude','Lat_Lon'
+  ### Get DataFrame and SQL Table
+  Create temp view nyc_crime
 ## Analysis
 ### The number of crimes for different category
 
