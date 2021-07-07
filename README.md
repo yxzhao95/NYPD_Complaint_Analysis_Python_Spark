@@ -31,15 +31,20 @@ Rows: 2.37M<br/>Columns: 35
   ### Get DataFrame and SQL Table
   Create temp view nyc_crime
 ## Analysis
+### The number of crimes year over year
+![crime_year](https://user-images.githubusercontent.com/72089707/124815037-bf8e4e80-df34-11eb-8ac8-e53aea17f570.png)
 ### The number of crimes for different category
+<img width="478" alt="Screen Shot 2021-07-07 at 2 54 14 PM" src="https://user-images.githubusercontent.com/72089707/124813829-4e9a6700-df33-11eb-97e6-9062e1032850.png">
 
 ### The number of crimes for different district
 
 ### The number of "" cimre at "Lower and Mid-Town Manhattan"
 
 ### The number of crime in each month of 2014, 2015, 2016, 2017, 2018
+![crime_each_month](https://user-images.githubusercontent.com/72089707/124815351-2ad82080-df35-11eb-9b9b-58260a546583.png)
 
-### Top danger district and complaint count in each hour
+### Top danger boroughs and "ROBBERY" count in each hour
+![crime_hour](https://user-images.githubusercontent.com/72089707/124816054-0d578680-df36-11eb-8f83-262cede1fc24.png)
 
 ### Spark ML clustering for spatial analysis
 
