@@ -30,13 +30,17 @@ Rows: 2.37M<br/>Columns: 35
         'Status','Offence_Level','Borough', 'Age','Latitude','Longitude','Lat_Lon'
   ### Get DataFrame and SQL Table
   Create temp view nyc_crime
+  
 ## Analysis
 ### The number of crimes year over year
 ![crime_year](https://user-images.githubusercontent.com/72089707/124815037-bf8e4e80-df34-11eb-8ac8-e53aea17f570.png)
-### The number of crimes for different category
-<img width="478" alt="Screen Shot 2021-07-07 at 2 54 14 PM" src="https://user-images.githubusercontent.com/72089707/124813829-4e9a6700-df33-11eb-97e6-9062e1032850.png">
 
-### The number of crimes for different district
+### The number of crimes for different category
+<img width="350" alt="Screen Shot 2021-07-07 at 2 54 14 PM" src="https://user-images.githubusercontent.com/72089707/124813829-4e9a6700-df33-11eb-97e6-9062e1032850.png">
+<img width="700" alt="crime_types" src="https://user-images.githubusercontent.com/72089707/124818750-683ead00-df39-11eb-924d-bf02a5ff60a7.png">
+
+### The number of crimes for different borough
+![crime_boro](https://user-images.githubusercontent.com/72089707/124819461-472a8c00-df3a-11eb-8dd3-69e30f9b2186.png)
 
 ### The number of "" cimre at "Lower and Mid-Town Manhattan"
 
