@@ -73,7 +73,8 @@ crime_each_month = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) AS Year, SUBSTR
 ![crime_each_month](https://user-images.githubusercontent.com/72089707/124815351-2ad82080-df35-11eb-9b9b-58260a546583.png)
 
 ### The Number of Crimes at "Lower Manhattan", "Mid Manhattan", "Upper Manhattan"
-Acquired the bounding box from https://boundingbox.klokantech.com<br/>
+Acquired the latitude and longitude bounding box from https://boundingbox.klokantech.com<br/>
+
 Mid: -74.014776,40.730158,-73.95878,40.773077<br/>
 Lower: -74.034071,40.691874,-73.967117,40.743045<br/>
 Upper: -73.993637,40.758687,-73.916978,40.831108<br/>
