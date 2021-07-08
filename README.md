@@ -5,10 +5,11 @@ As more people are vaccinated in the US, there has been a significant travel reb
 ## Project Objectives:
   1. The number of complaints for different category
   2. The number of complaints for different district
-  3. The number of "" cimre at "Lower and Mid-Town Manhattan"
+  3. The number of cimre at "Lower Manhattan", "Mid Manhattan", "Upper Manhattan"
   4. The number of crime in each month of 2014, 2015, 2016, 2017, 2018
-  5. Top danger district and complaint count in each hour
-  6. Spark ML clustering for spatial analysis
+  5. The number of crime in each hour in certian day like 2014/8/24, 2015/8/24, 2016/8/24, 2017/8/24, 2018/8/24
+  6. Top danger boroughs and "ROBBERY" count in each hour
+  7. Spark ML clustering for spatial analysis
 
 ## Data Source:
 https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i
@@ -57,6 +58,9 @@ https://boundingbox.klokantech.com
 
 ### The number of crime in each month of 2014, 2015, 2016, 2017, 2018
 ![crime_each_month](https://user-images.githubusercontent.com/72089707/124815351-2ad82080-df35-11eb-9b9b-58260a546583.png)
+
+### The number of crime in each hour in certian day like 2014/8/24, 2015/8/24, 2016/8/24, 2017/8/24, 2018/8/24
+![certain_day](https://user-images.githubusercontent.com/72089707/124848945-d69c6300-df6b-11eb-871a-29c1d27c56c8.png)
 
 ### Top danger boroughs and "ROBBERY" count in each hour
 ![crime_hour](https://user-images.githubusercontent.com/72089707/124816054-0d578680-df36-11eb-8f83-262cede1fc24.png)
