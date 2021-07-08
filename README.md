@@ -5,8 +5,8 @@ As more people are vaccinated in the US, there has been a significant travel reb
 ## Project Objectives:
   1. The number of complaints for different category
   2. The number of complaints for different district
-  3. The number of cimre at "Lower Manhattan", "Mid Manhattan", "Upper Manhattan"
-  4. The number of crime in each month of 2014, 2015, 2016, 2017, 2018
+  3. The number of crime in each month of 2014, 2015, 2016, 2017, 2018
+  4. The number of cimre at "Lower Manhattan", "Mid Manhattan", "Upper Manhattan"
   5. The number of crime in each hour in certian day like 2014/8/24, 2015/8/24, 2016/8/24, 2017/8/24, 2018/8/24
   6. Top danger boroughs and "ROBBERY" count in each hour
   7. Spark ML clustering for spatial analysis
@@ -45,6 +45,9 @@ Rows: 2.37M<br/>Columns: 35
 ### The number of crimes for different borough
 ![crime_boro](https://user-images.githubusercontent.com/72089707/124819461-472a8c00-df3a-11eb-8dd3-69e30f9b2186.png)
 
+### The number of crime in each month of 2014, 2015, 2016, 2017, 2018
+![crime_each_month](https://user-images.githubusercontent.com/72089707/124815351-2ad82080-df35-11eb-9b9b-58260a546583.png)
+
 ### The number of cimre at "Lower Manhattan", "Mid Manhattan", "Upper Manhattan"
 Acuired from
 https://boundingbox.klokantech.com
@@ -55,9 +58,6 @@ https://boundingbox.klokantech.com
 <img width="450" src = "https://user-images.githubusercontent.com/72089707/124847968-ed41ba80-df69-11eb-9914-8db1e6902da3.png">
 <img width="450" src = "https://user-images.githubusercontent.com/72089707/124847998-fcc10380-df69-11eb-9e33-d8aa295b61f6.png">
 </p>
-
-### The number of crime in each month of 2014, 2015, 2016, 2017, 2018
-![crime_each_month](https://user-images.githubusercontent.com/72089707/124815351-2ad82080-df35-11eb-9b9b-58260a546583.png)
 
 ### The number of crime in each hour in certian day like 2014/8/24, 2015/8/24, 2016/8/24, 2017/8/24, 2018/8/24
 ![certain_day](https://user-images.githubusercontent.com/72089707/124848945-d69c6300-df6b-11eb-871a-29c1d27c56c8.png)
