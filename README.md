@@ -86,6 +86,7 @@ crime_manhattan = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) year,
                              GROUP BY year 
                              ORDER BY year")
 ```
+![bar_manhattan](https://user-images.githubusercontent.com/72089707/124994537-fdae6f80-e013-11eb-8d06-8b150c3fdd05.png)
 
 ```
 upper = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) year, COUNT(*) upper_manhattan_cnt 
@@ -94,6 +95,7 @@ upper = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) year, COUNT(*) upper_manha
                    GROUP BY year 
                    ORDER BY year")
 ```
+![upper](https://user-images.githubusercontent.com/72089707/124994570-099a3180-e014-11eb-8719-8a9a9f193adb.png)
 
 ```
 mid = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) year, COUNT(*) mid_manhattan_cnt 
@@ -102,6 +104,7 @@ mid = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) year, COUNT(*) mid_manhattan
                  GROUP BY year 
                  ORDER BY year")
 ```
+![mid](https://user-images.githubusercontent.com/72089707/124994589-128b0300-e014-11eb-866f-051c1fd8c004.png)
 
 ```
 lower = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) year, COUNT(*) lower_manhattan_cnt 
@@ -110,6 +113,7 @@ lower = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) year, COUNT(*) lower_manha
                    GROUP BY year 
                    ORDER BY year")
 ```
+![lower](https://user-images.githubusercontent.com/72089707/124994600-14ed5d00-e014-11eb-9c87-0d97678017e5.png)
 
 
 ### The Number of Crime in Each Hour in Certian Day like 2014/8/24, 2015/8/24, 2016/8/24, 2017/8/24, 2018/8/24
