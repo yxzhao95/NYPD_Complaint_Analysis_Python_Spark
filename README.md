@@ -134,6 +134,7 @@ crime_top3_boro = spark.sql("SELECT Borough, COUNT(*) AS Count
 ```
 ```
 crime_top3_boro.createOrReplaceTempView("crime_top3_boro")
+
 crime_hour = spark.sql("SELECT Borough, SUBSTRING(Complnt_Time, 0, 2) AS Hour, COUNT(*) AS Count 
                         FROM nyc_crime 
                         WHERE Offence_Type == 'ROBBERY' 
