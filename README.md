@@ -38,13 +38,19 @@ Rows: 2.37M<br/>Columns: 35
 ### The number of crimes for different category
 <p float="left">
 <img width="660" alt="crime_types" src="https://user-images.githubusercontent.com/72089707/124818750-683ead00-df39-11eb-924d-bf02a5ff60a7.png">
- <img width="300" alt="Screen Shot 2021-07-07 at 2 54 14 PM" src="https://user-images.githubusercontent.com/72089707/124813829-4e9a6700-df33-11eb-97e6-9062e1032850.png">
+<img width="300" alt="Screen Shot 2021-07-07 at 2 54 14 PM" src="https://user-images.githubusercontent.com/72089707/124813829-4e9a6700-df33-11eb-97e6-9062e1032850.png">
 </p>
 
 ### The number of crimes for different borough
 ![crime_boro](https://user-images.githubusercontent.com/72089707/124819461-472a8c00-df3a-11eb-8dd3-69e30f9b2186.png)
 
-### The number of "" cimre at "Lower and Mid-Town Manhattan"
+### The number of cimre at "Lower Manhattan", "Mid Manhattan", "Upper Manhattan"
+<p float="left">
+<img width="450" src = "https://user-images.githubusercontent.com/72089707/124848217-6a6d2f80-df6a-11eb-9991-97e1d81bc701.png">
+<img width="450" src = "https://user-images.githubusercontent.com/72089707/124847874-c2effd00-df69-11eb-95a5-457ab12ebfcb.png">
+<img width="450" src = "https://user-images.githubusercontent.com/72089707/124847968-ed41ba80-df69-11eb-9914-8db1e6902da3.png">
+<img width="450" src = "https://user-images.githubusercontent.com/72089707/124847998-fcc10380-df69-11eb-9e33-d8aa295b61f6.png">
+</p>
 
 ### The number of crime in each month of 2014, 2015, 2016, 2017, 2018
 ![crime_each_month](https://user-images.githubusercontent.com/72089707/124815351-2ad82080-df35-11eb-9b9b-58260a546583.png)
