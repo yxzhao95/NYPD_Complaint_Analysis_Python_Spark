@@ -9,7 +9,7 @@ As more people are vaccinated in the US, there has been a significant travel reb
   4. The number of cimre at "Lower Manhattan", "Mid Manhattan", "Upper Manhattan"
   5. The number of crime in each hour in certian day like 2014/8/24, 2015/8/24, 2016/8/24, 2017/8/24, 2018/8/24
   6. Top danger boroughs and "ROBBERY" count in each hour
-  7. Spark ML clustering for spatial analysis
+  7. K-Means clustering for spatial analysis
 
 ## Data Source:
 https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i
@@ -65,6 +65,6 @@ https://boundingbox.klokantech.com
 ### Top danger boroughs and "ROBBERY" count in each hour
 ![crime_hour](https://user-images.githubusercontent.com/72089707/124816054-0d578680-df36-11eb-8f83-262cede1fc24.png)
 
-### Spark ML clustering for spatial analysis
+### K-Means clustering for spatial analysis
 
 ## Conclusion
