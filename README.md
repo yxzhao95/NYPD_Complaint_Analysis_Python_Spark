@@ -78,7 +78,6 @@ Mid: -74.014776,40.730158,-73.95878,40.773077<br/>
 Lower: -74.034071,40.691874,-73.967117,40.743045<br/>
 Upper: -73.993637,40.758687,-73.916978,40.831108<br/>
 
-
 ```
 crime_manhattan = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) year, 
                              SUM(CASE WHEN latitude BETWEEN 40.758687 AND 40.831108 AND longitude BETWEEN -73.993637 AND -73.916978 THEN 1 ELSE 0 END) Upper,                                    SUM(CASE WHEN latitude BETWEEN 40.730158 AND 40.773077 AND longitude BETWEEN -74.014776 AND -73.95878 THEN 1 ELSE 0 END) Mid, 
@@ -87,7 +86,7 @@ crime_manhattan = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) year,
                              GROUP BY year 
                              ORDER BY year")
 ```
-<img width="450" src = "https://user-images.githubusercontent.com/72089707/124848217-6a6d2f80-df6a-11eb-9991-97e1d81bc701.png">
+
 ```
 upper = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) year, COUNT(*) upper_manhattan_cnt 
                    FROM nyc_crime 
@@ -95,7 +94,7 @@ upper = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) year, COUNT(*) upper_manha
                    GROUP BY year 
                    ORDER BY year")
 ```
-<img width="450" src = "https://user-images.githubusercontent.com/72089707/124847874-c2effd00-df69-11eb-95a5-457ab12ebfcb.png">
+
 ```
 mid = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) year, COUNT(*) mid_manhattan_cnt 
                  FROM nyc_crime 
@@ -103,7 +102,7 @@ mid = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) year, COUNT(*) mid_manhattan
                  GROUP BY year 
                  ORDER BY year")
 ```
-<img width="450" src = "https://user-images.githubusercontent.com/72089707/124847968-ed41ba80-df69-11eb-9914-8db1e6902da3.png">
+
 ```
 lower = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) year, COUNT(*) lower_manhattan_cnt 
                    FROM nyc_crime 
@@ -111,7 +110,6 @@ lower = spark.sql("SELECT SUBSTRING(Complnt_Date,7,4) year, COUNT(*) lower_manha
                    GROUP BY year 
                    ORDER BY year")
 ```
-<img width="450" src = "https://user-images.githubusercontent.com/72089707/124847998-fcc10380-df69-11eb-9e33-d8aa295b61f6.png">
 
 
 ### The Number of Crime in Each Hour in Certian Day like 2014/8/24, 2015/8/24, 2016/8/24, 2017/8/24, 2018/8/24
