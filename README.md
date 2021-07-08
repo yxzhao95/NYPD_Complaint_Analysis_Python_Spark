@@ -33,22 +33,22 @@ Rows: 2.37M<br/>Columns: 35
   Create temp view nyc_crime
   
 ## Analysis
-### The number of crimes year over year
+### The Number of Crimes Year over Year
 ![crime_year](https://user-images.githubusercontent.com/72089707/124815037-bf8e4e80-df34-11eb-8ac8-e53aea17f570.png)
 
-### The number of crimes for different category
+### The Number of Crimes for Different Category
 <p float="left">
 <img width="660" alt="crime_types" src="https://user-images.githubusercontent.com/72089707/124818750-683ead00-df39-11eb-924d-bf02a5ff60a7.png">
 <img width="300" alt="Screen Shot 2021-07-07 at 2 54 14 PM" src="https://user-images.githubusercontent.com/72089707/124813829-4e9a6700-df33-11eb-97e6-9062e1032850.png">
 </p>
 
-### The number of crimes for different borough
+### The Number of Crimes for Different Borough
 ![crime_boro](https://user-images.githubusercontent.com/72089707/124819461-472a8c00-df3a-11eb-8dd3-69e30f9b2186.png)
 
-### The number of crime in each month of 2014, 2015, 2016, 2017, 2018
+### The Number of Crimes in Each Month of 2014, 2015, 2016, 2017, 2018
 ![crime_each_month](https://user-images.githubusercontent.com/72089707/124815351-2ad82080-df35-11eb-9b9b-58260a546583.png)
 
-### The number of cimre at "Lower Manhattan", "Mid Manhattan", "Upper Manhattan"
+### The Number of Crimes at "Lower Manhattan", "Mid Manhattan", "Upper Manhattan"
 Acuired from
 https://boundingbox.klokantech.com
 
@@ -59,12 +59,12 @@ https://boundingbox.klokantech.com
 <img width="450" src = "https://user-images.githubusercontent.com/72089707/124847998-fcc10380-df69-11eb-9e33-d8aa295b61f6.png">
 </p>
 
-### The number of crime in each hour in certian day like 2014/8/24, 2015/8/24, 2016/8/24, 2017/8/24, 2018/8/24
+### The Number of Crime in Each Hour in Certian Day like 2014/8/24, 2015/8/24, 2016/8/24, 2017/8/24, 2018/8/24
 ![certain_day](https://user-images.githubusercontent.com/72089707/124848945-d69c6300-df6b-11eb-871a-29c1d27c56c8.png)
 
-### Top danger boroughs and "ROBBERY" count in each hour
+### Top Danger Boroughs and "ROBBERY" Count in Each Hour
 ![crime_hour](https://user-images.githubusercontent.com/72089707/124816054-0d578680-df36-11eb-8f83-262cede1fc24.png)
 
-### K-Means clustering for spatial analysis
+### K-Means Clustering for Spatial Analysis
 
 ## Conclusion
