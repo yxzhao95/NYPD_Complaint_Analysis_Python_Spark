@@ -151,4 +151,6 @@ crime_hour = spark.sql("SELECT Borough, SUBSTRING(Complnt_Time, 0, 2) AS Hour, C
 
 ### K-Means Clustering for Spatial Analysis
 
+<img width="561" alt="Screen Shot 2021-07-08 at 6 30 07 PM" src="https://user-images.githubusercontent.com/72089707/125004323-47ed1c00-e027-11eb-9f03-228a9b8ada76.png">
+
 ## Conclusion
