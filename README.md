@@ -23,12 +23,12 @@ Rows: 2.37M<br/>Columns: 35
 ## Data Preprocessing
   ### Make assumptions and drop columns <br/>
   PARKS_NM", "VIC_AGE_GROUP", "VIC_RACE", "VIC_SEX", "STATION_NAME", "PATROL_BORO", "TRANSIT_DISTRICT", 
-             "SUSP_SEX", "SUSP_RACE", "X_COORD_CD", "Y_COORD_CD", "HOUSING_PSA", "HADEVELOPT", 
+             "SUSP_AGE_GROUP", "SUSP_SEX", "SUSP_RACE", "X_COORD_CD", "Y_COORD_CD", "HOUSING_PSA", "HADEVELOPT", 
              "JURISDICTION_CODE", "JURIS_DESC", "JURIS_DESC", "RPT_DT", "JURIS_DESC", "PREM_TYP_DESC",
              "PD_CD", "PD_DESC", "LOC_OF_OCCUR_DESC", "CMPLNT_TO_TM", "CMPLNT_TO_DT
   ### Rename the remaining columns<br/>
   'Complaint_ID', 'Complnt_Date','Complnt_Time', 'Neighborhood', 'Offence_Code', 'Offence_Type',
-        'Status','Offence_Level','Borough', 'Age','Latitude','Longitude','Lat_Lon'
+        'Status','Offence_Level','Borough', 'Latitude','Longitude','Lat_Lon'
   
 ## Analysis
 ### The Number of Crimes Year over Year
