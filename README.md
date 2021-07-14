@@ -18,6 +18,9 @@ Rows: 6.91M<br/>Columns: 35
 Filtered:<br/>
 Rows: 2.37M<br/>Columns: 35
 
+## Tools:
+Jupyter Notebook, Databricks, Spark SQL, Tableau
+
 ## Data Preprocessing
   ### Make assumptions and drop columns <br/>
   PARKS_NM", "VIC_AGE_GROUP", "VIC_RACE", "VIC_SEX", "STATION_NAME", "PATROL_BORO", "TRANSIT_DISTRICT", 
