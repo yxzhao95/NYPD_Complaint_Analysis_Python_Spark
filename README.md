@@ -49,7 +49,6 @@ crime_types = spark.sql("SELECT  Offence_Type, COUNT(*) AS Count
 ```
 <p float="left">
 <img width="660" alt="crime_types" src="https://user-images.githubusercontent.com/72089707/124818750-683ead00-df39-11eb-924d-bf02a5ff60a7.png">
-<img width="300" alt="Screen Shot 2021-07-07 at 2 54 14 PM" src="https://user-images.githubusercontent.com/72089707/124813829-4e9a6700-df33-11eb-97e6-9062e1032850.png">
 </p>
 
 ### The Number of Crimes for Different Borough
