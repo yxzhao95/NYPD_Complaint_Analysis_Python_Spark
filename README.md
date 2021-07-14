@@ -3,13 +3,11 @@
 ## Problem Description:
 As more people are vaccinated in the US, there has been a significant travel rebound. New York City has always been the top 10 traveling destinations in the US. Its shopping and food selections attract people from all over the country. Safety is perhaps the number one concern in any trip. Therefore, this project aims to explore some criminal patterns in NYC and deliver some insights and suggestions to the visitors using the data from NYPD. In addition, I'm currently located in NYC, so I'd like to know more about the criminal patterns in the city and try to avoid any unpleasant incidents.
 ## Project Objectives:
-  1. The number of complaints for different category
-  2. The number of complaints for different district
-  3. The number of crime in each month of 2014, 2015, 2016, 2017, 2018
-  4. The number of cimre at "Lower Manhattan", "Mid Manhattan", "Upper Manhattan"
-  5. The number of crime in each hour in certian day like 2014/8/24, 2015/8/24, 2016/8/24, 2017/8/24, 2018/8/24
-  6. Top danger boroughs and "ROBBERY" count in each hour
-  7. K-Means clustering for spatial analysis
+  1. Analyze complaints by category
+  2. Analyze complaints by district
+  3. Analyze complaints by month
+  4. Analyze complaints by hour
+  5. K-Means clustering for spatial analysis
 
 ## Data Source:
 https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i
@@ -150,6 +148,14 @@ crime_hour = spark.sql("SELECT Borough, SUBSTRING(Complnt_Time, 0, 2) AS Hour, C
 
 ### K-Means Clustering for Spatial Analysis
 
-<img width="561" alt="Screen Shot 2021-07-08 at 6 30 07 PM" src="https://user-images.githubusercontent.com/72089707/125004323-47ed1c00-e027-11eb-9f03-228a9b8ada76.png">
+<img width="660" alt="distribution" src="https://user-images.githubusercontent.com/72089707/125545475-ba2df131-186f-4602-8100-861d5ad16d66.png">
 
 ## Conclusion
+The project aims to explore the criminal patterns in New York City, and provide valuable insights to visitors or even the police force. The project first preprocessed and manipulated the  NYPD complaint record using Pythong, then visulized the data using Spark SQL. Here are the major findings from this project:
+1. The crime count is decreasing year over year, which means NYPD has done a great job
+2. PETIT LARCENY, HARRASSMENT 2, and ASSAULT 3 & RELATED OFFENSES are the top three crime types in NYC
+3. Brooklyn is the most dangerous borough
+4. Jul and Aug usually have more crimes, and Dec, Jan and Feb are the safer months
+5. Up-town Manhattan has the most crimes, but it shows a decending trend
+6. Lower and Mid-town Manhattan have less crimes, but they've shown an increasing trend in recent years
+7. The crime count is high from 3pm to 8 pm, and the number is significantly lower in the morning
